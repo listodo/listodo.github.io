@@ -1,0 +1,71 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("blank-book-calendar-1059383.jpg");
+    height:100%;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-attachment: fixed;
+
+}
+.logo img {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-top:0px;
+
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+.main-nav li{
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.main-nav li a{
+    color: white;
+    box-shadow: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 17px;
+}
+
+
+.main-nav li a{
+
+}
+.main-nav li:hover{
+
+    background-color: darkorange;
+    transition: all 0.3s ease-in;
+}
+.alt p{
+    color: white;
+    position: absolute;
+    top: 600px;
+    left: 1075px;
+}
+
+.circle:before {
+    content: ' \25CF';
+    font-size: 500px;
+    color: #ffffff;
+    position: absolute;
+    opacity: 0.3;
+    left: 475px;
+}
+.start h1{
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top:240px;
+    left:590px;
+    font-size: 50px;
+    font-family: "Stay Classy SLDT";
+}
